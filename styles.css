@@ -1,9 +1,10 @@
-body#grid {
+#grid {
   margin: 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, 100px);
+  grid-template-rows: repeat(5, 1fr);
   gap: 5px;
+  height: 100vh;
 }
 
 #grid > div {
